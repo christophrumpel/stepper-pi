@@ -12,12 +12,6 @@ if __name__ == "__main__":
 	m = Motor([18,23,24,25], 15)
 
 	# clock 180
-	m.move_to(0)
-	sleep(5)
-	m.move_to(180)
-	sleep(5)
-	m.move_to(90)
-	sleep(5)
-	m.move_to(-90)
-	GPIO.cleanup()
+	m.move_to(20)
+
 
