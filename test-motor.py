@@ -9,7 +9,7 @@ import sys
 if __name__ == "__main__":
 	GPIO.setmode(GPIO.BOARD)
 
-	m = Motor([int(sys.argv[1]),int(sys.argv[2]),int(sys.argv[3]),int(sys.argv[4])], 15)
+	m = Motor([18,23,24,25], 15)
 
 	# clock 180
 	m.move_to(180)
